@@ -4,12 +4,6 @@ print(type(age))
 print(age)
 
 
-'''
-
-
-
-
-
 
 
 
