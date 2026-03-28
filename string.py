@@ -1,8 +1,10 @@
 class Car:
-    def __init__(self, make, model):
+    def __init__(self, make, model, year ,color):
         self.make =make
         self.model = model
-    
+        self.year = year
+        self.color = color
+
     def drive(self):
         print(f"The {self.make} {self.model} is driving.")
   
@@ -17,6 +19,8 @@ volvo.get_info()
 
 bmw: Car = Car("BMW", "X5")
 bmw.drive()
+
+
 
 
 mercedes: Car = Car("Mercedes", "C-Class")
