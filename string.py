@@ -1,10 +1,13 @@
-course = """python for biginners"""
+class Car:
+    def __init__(self, make, model):
+        self.make =make
+        self.model = model
+    
+    def drive(self):
+        print("The {self.make} {self.model} is driving.")
+    
 
 
-print(course[2])
-
-
-first = 'john'
-last = 'smith'  
-msg = f'{first} [{last}] is a coder'
-print(msg)
+volvo: Car = Car("Volvo", "XC90")
+volvo.drive()
+    
