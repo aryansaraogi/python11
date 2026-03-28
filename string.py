@@ -9,11 +9,9 @@ class Car:
     def get_info(self):
         return f"{self.make} {self.model}"
 
-
 volvo: Car = Car("Volvo", "XC90")
 volvo.drive()     
 volvo.get_info()
-
 
 bmw: Car = Car("BMW", "X5")
 bmw.drive()
