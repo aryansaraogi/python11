@@ -13,6 +13,11 @@ volvo: Car = Car("Volvo", "XC90")
 volvo.drive()     
 volvo.get_info()
 
+
+
 bmw: Car = Car("BMW", "X5")
 bmw.drive()
-    
+
+
+mercedes: Car = Car("Mercedes", "C-Class")
+mercedes.drive()
