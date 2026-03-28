@@ -4,10 +4,17 @@ class Car:
         self.model = model
     
     def drive(self):
-        print("The {self.make} {self.model} is driving.")
-    
+        print(f"The {self.make} {self.model} is driving.")
+  
+    def get_info(self):
+        return f"{self.make} {self.model}"
 
 
 volvo: Car = Car("Volvo", "XC90")
-volvo.drive()
+volvo.drive()     
+volvo.get_info()
+
+
+bmw: Car = Car("BMW", "X5")
+bmw.drive()
     
