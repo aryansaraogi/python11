@@ -14,6 +14,10 @@ class Microwave:
 
   
 
+bosch:Microwave = Microwave("Bosch", 1000)
+print(bosch)
+
+
 smeg:Microwave = Microwave("Smeg", 800)
 print(smeg)
 
