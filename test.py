@@ -1,2 +1,1 @@
-name = aryan 
-print(name)     
+list arya = []
