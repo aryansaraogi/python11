@@ -13,6 +13,14 @@ class Microwave:
         self.size = 20
 
   
+
+philpes:Microwave = Microwave("Philips", 1000)
+print(philpes)  
+
+
+whirpool:Microwave = Microwave("Whirlpool", 1200)
+print(whirpool)         
+
 smeg:Microwave = Microwave("Smeg", 800)
 print(smeg)
 
