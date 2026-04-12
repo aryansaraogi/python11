@@ -12,7 +12,13 @@ class Microwave:
         self.plant = "Kitchen"
         self.size = 20
 
-  
+
+
+ 
+amazon:Microwave = Microwave("Amazon", 900)
+print(amazon)   
+
+
 
 philpes:Microwave = Microwave("Philips", 1000)
 print(philpes)  
