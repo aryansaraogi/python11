@@ -1,9 +1,13 @@
 first = 'john'
 last = 'doe'
+ 
 
-msg =  f'{first} {last} is a coder'
 
 
+car = 'volvo'
+country = 'sweden'
+
+msg = f"{first} {last} drives a {car} from {country}."
 
 print(msg)
 
