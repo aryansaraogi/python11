@@ -24,8 +24,19 @@ amazon:Microwave = Microwave("Amazon", 900)
 print(amazon)   
 
 
+
 philpes:Microwave = Microwave("Philips", 1000)
 print(philpes)  
+
+
+
+philpes:Microwave = Microwave("Philips", 1000)
+print(philpes)  
+
+
+philpes:Microwave = Microwave("Philips", 1000)
+print(philpes)  
+
 
 
 whirpool:Microwave = Microwave("Whirlpool", 1200)
