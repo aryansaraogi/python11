@@ -7,7 +7,11 @@ company = 'google'
 car = 'volvo'
 country = 'sweden'
 
-msg = f"{first} {last} is {age} years old and works at {company}. He drives a {car} from {country}."
+residence = 'new york' 
+
+BUILDING = 'empire state building'
+
+msg = f"{first} {last} is {age} years old and works at {company}. He lives in {residence} and drives a {car} from {country}."
 
 print(msg)
 
