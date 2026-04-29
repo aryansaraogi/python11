@@ -4,10 +4,6 @@ last = 'doe'
 age = 30
 company = 'google'
 
-car = 'volvo'
-country = 'sweden'
-
-residence = 'new york' 
 
 BUILDING = 'empire state building'
 
