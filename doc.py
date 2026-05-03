@@ -4,6 +4,11 @@ last = 'doe'
 age = 30
 company = 'google'
 
+education = 'masters'
+residence = 'new york'  
+car = 'tesla model 3'
+country = 'usa'
+
 
 BUILDING = 'empire state building'
 
