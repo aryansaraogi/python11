@@ -1,0 +1,39 @@
+# Sample YAML configuration
+app:
+	name: SampleApp
+	version: 1.0.0
+	debug: true
+
+database:
+	host: localhost
+	port: 5432
+	user: sample_user
+	password: sample_password
+	name: sample_db
+
+logging:
+	level: INFO
+	file: /var/log/sampleapp.log
+
+servers:
+	- name: web01
+		host: 192.168.1.10
+		roles:
+			- web
+			- api
+	- name: worker01
+		host: 192.168.1.20
+		roles:
+			- worker
+
+# Example of nested mapping and sequence
+features:
+	authentication:
+		enabled: true
+		providers:
+			- type: oauth
+				name: github
+			- type: ldap
+				name: corporate
+
+# End of sample config
