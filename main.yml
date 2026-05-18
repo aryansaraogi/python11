@@ -10,6 +10,10 @@ skills:
 student:
   age: 21
 
+message: |
+  Hello
+  This is YAML
+
 # Boolean
 active: true
 
