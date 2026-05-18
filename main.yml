@@ -1,0 +1,20 @@
+# Key-value
+name: Aryan
+
+# List
+skills:
+  - Python
+  - React
+
+# Nested
+student:
+  age: 21
+
+# Boolean
+active: true
+
+# Null
+value: null
+
+# Comment
+# hello
